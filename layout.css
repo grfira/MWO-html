@@ -1,0 +1,130 @@
+*{
+box-sizing: border-box;}
+
+}
+body{margin: 0px;}
+header{
+font-size: 3vw;
+color: #084081;
+background-color: #e0f3db;
+border-radius: 5px;
+padding: 0.5em;
+text-align: center;}
+
+nav {
+width: 100%;
+color: #f7fcf0;
+background-color: #2b8cbe;
+border-radius: 16px;
+padding: 16px;
+margin: 5px;
+text-align: center;
+border: 1px solid #2b8cbe;
+}
+
+.flex-container :hover {
+cursor: pointer;
+background-color: #0868ac;
+color: #e0f3db;
+border: 1px solid #4eb3d3;
+}
+.flex-container {
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+}
+article{
+color: #084081;
+background-color: #a8ddb5;
+border-radius: 5px;
+padding: 10px;
+overflow: hidden;
+text-align: justify;
+  text-justify: inter-word;}
+
+#podniesienie_bandery_img {
+width: 200px;}
+
+div.image {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 400px;
+}
+
+div.image:hover {
+  border: 1px solid #777;
+}
+
+div.image img {
+  width: 100%;
+  height: auto;
+}
+
+div.imgDesc {
+  padding: 10px;
+  text-align: center;
+}
+
+#email{
+width:100%;}
+.col-30 {
+  float: left;
+  width: 30%;
+  margin-top: 6px;
+}
+.col-70 {
+  float: left;
+  width: 70%;
+  margin-top: 6px;
+}
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+iframe[id=carribean_sailing]{
+width:472px;
+height: 266px;
+margin: 5px;
+}
+
+textarea{
+resize: vertical;
+height: 100px;
+width:100%;}
+
+input[type=submit], input[type=reset] {
+  color: #f7fcf0;
+  background-color: #0868ac;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  float: right;
+}
+
+input[type=submit]:hover,input[type=reset]:hover {
+  background-color: #084081;
+}
+footer{
+text-align: center;
+font-size: 12px;
+color: grey;
+background-color: #ccebc5;
+border-radius: 5px;
+padding: 20px;
+margin-top: 5px;
+}
+
+@media (max-width: 480px){
+.flex-container {
+flex-direction: column;
+justify-content: space-around;}
+.col-30, .col-70 {
+width: 100%;
+margin-top: 10px;}
+}
